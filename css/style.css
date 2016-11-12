@@ -20,7 +20,7 @@ body {
 	background: linear-gradient(135deg, #044f48, #2a7561);
 	background-size: cover;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
+	font-size: 20px;
 	line-height: 1.3;
 	overflow: hidden;
 }
@@ -47,14 +47,12 @@ Chat
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	width: 300px;
-	height: 80vh;
-	max-height: 500px;
+	width: 100%;
+	height: 100%;
 	z-index: 2;
 	overflow: hidden;
 	box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
 	background: rgba(0, 0, 0, 0.5);
-	border-radius: 20px;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -150,7 +148,7 @@ Messages
 }
 .messages .message .timestamp {
 	position: absolute;
-	bottom: -15px;
+	bottom: -2.8vh;
 	font-size: 9px;
 	color: rgba(255, 255, 255, 0.3);
 }
