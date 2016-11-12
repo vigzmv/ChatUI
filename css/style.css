@@ -13,6 +13,7 @@ Body
 html,
 body {
 	height: 100%;
+	zoom:1.8;
 }
 
 body {
@@ -34,8 +35,8 @@ body {
 	background: url("https://images.unsplash.com/photo-1451186859696-371d9477be93?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925") no-repeat 0 0;
 	-webkit-filter: blur(80px);
 	filter: blur(80px);
-	-webkit-transform: scale(1.2);
-	transform: scale(1.2);
+	-webkit-transform: scale(1);
+	transform: scale(1);
 }
 
 /*--------------------
@@ -43,15 +44,10 @@ Chat
 --------------------*/
 .chat {
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
 	width: 100%;
 	height: 100%;
 	z-index: 2;
 	overflow: hidden;
-	box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
 	background: rgba(0, 0, 0, 0.5);
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -148,7 +144,7 @@ Messages
 }
 .messages .message .timestamp {
 	position: absolute;
-	bottom: -2.8vh;
+	bottom: -60%;
 	font-size: 9px;
 	color: rgba(255, 255, 255, 0.3);
 }
